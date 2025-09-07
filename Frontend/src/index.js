@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <GoogleOAuthProvider clientId="694336668338-2pf2gqvb569ihlra6kq2jd9kqskp12aj.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="YOUR_API_KEY">
     <App />
   </GoogleOAuthProvider>
 );
